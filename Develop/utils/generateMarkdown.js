@@ -10,6 +10,9 @@ function generateMarkdown(data) {
 * [Tests](#tests)
 * [License](#license)
 
+## License
+${data.license}
+
 ## Description
 ${data.description}
 

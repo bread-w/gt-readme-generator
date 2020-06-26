@@ -32,10 +32,30 @@ const questions = [
     name: "contributing",
   },
   {
-    message:
-      "How would you like to test this code?",
+    message: "How would you like to test this code?",
     type: "input",
     name: "tests",
+  },
+  {
+    message: "Which of the following licenses would you like to include?",
+    type: "list",
+    name: "license",
+    choices: [
+      {
+        name: "The MIT License",
+        value:
+          "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+        short: "MIT",
+      },
+      {
+        name: "Apache 2.0 License",
+        value: "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+        short: "Apache",
+      },
+      {
+
+      },
+    ],
   },
 ];
 
@@ -46,6 +66,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
+  // I used the inquirer template from npmjs.com
   inquirer
     .prompt(questions)
 
