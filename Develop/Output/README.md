@@ -1,4 +1,4 @@
-# My first README Generator
+# My First README Generator
 
 <img src="https://img.shields.io/badge/license-MIT-red"/>
 
@@ -17,23 +17,23 @@ This project is being licensed under the MIT license.
 ```
 ## Description
 ```md
-Im generating a readme using BRad's fancy software!!!
+I'm generating a README using Brad's fancy software.
 ```
 ## Installation
 ```
-First, run npm install, and then run the node index
+First, run 'npm install' and then run 'node index.js'
 ```
 ## Usage
 ```
-Please take a picture of your generated README and make sure to include it within your project!!
+Please take a picture of your generated README and make sure to include your README with your project!!
 ```
 ## Contributing
 ```
-All pulls are welcome, please contact me before making any changes!!
+All pulls are welcome, but please contact me before making any major changes!!
 ```
 ## Tests
 ```
-Run node indeex.js, and then to double check the code in the utils folder
+Run 'node index.js' and then double check the generateMarkdown.js in the utils folder.
 ```
 ## Questions
 If you have any questions, follow my GitHub profile here: https://github.com/bread-w.
