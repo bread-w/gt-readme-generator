@@ -32,12 +32,86 @@ const questions = [
     name: "contributing",
   },
   {
-    message:
-      "How would you like to test this code?",
+    message: "How would you like to test this code?",
     type: "input",
     name: "tests",
   },
+  {
+    message: "Which of the following licenses would you like to include?",
+    type: "list",
+    name: "license",
+    // badges added from https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+    // choices chosen from top 5 of this list: https://www.synopsys.com/blogs/software-security/top-open-source-licenses/
+    choices: [
+      {
+        name: "MIT",
+        // value:
+        //   "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+        short: "MIT",
+      },
+      {
+        name: "Apache 2.0",
+        // value:
+        //   "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+        short: "Apache",
+      },
+      {
+        name: "GNU GPL v3",
+        // value:
+        //   "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+        short: "GNU 3.0",
+      },
+      {
+        name: "GNU GPL v2",
+        // value:
+          // "[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)",
+        short: "GNU 2.0",
+      },
+      {
+        name: "BSD 3-Clause",
+        // value: "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
+        short: "BSD 3-C",
+      },
+      {
+        name: "Mozilla Public 2.0",
+        // value: "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+        short: "Mozilla",
+      },
+      {
+        name: "ISC",
+        // value: "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
+        short: "ISC",
+      },
+      {
+        name: "The Perl",
+        // value: "[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)",
+        short: "Perl",
+      },
+      {
+        name: "Eclipse Public 1.0",
+        // value: "[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)",
+        short: "Eclipse",
+      },
+      {
+        name: "IBM Public Version 1.0",
+        // value: "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)",
+        short: "IBM",
+      },
+    ],
+  },
+  {
+    message: "What is your GitHub profile name?",
+    type: "input",
+    name: "github",
+  },
+  {
+    message: "What contact email would you like to display?",
+    type: "input",
+    name: "email",
+  },
 ];
+
+
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -46,6 +120,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
+  // I used the inquirer template from npmjs.com
   inquirer
     .prompt(questions)
 
@@ -66,3 +141,4 @@ function init() {
 
 // function call to initialize program
 init();
+// console.log(data);
