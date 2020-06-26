@@ -40,6 +40,8 @@ const questions = [
     message: "Which of the following licenses would you like to include?",
     type: "list",
     name: "license",
+    // badges added from https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+    // choices chosen from top 5 of this list: https://www.synopsys.com/blogs/software-security/top-open-source-licenses/
     choices: [
       {
         name: "The MIT License",
@@ -49,12 +51,27 @@ const questions = [
       },
       {
         name: "Apache 2.0 License",
-        value: "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+        value:
+          "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
         short: "Apache",
       },
       {
-
+        name: "GNU GPL v3",
+        value:
+          "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+        short: "GNU 3.0",
       },
+      {
+        name: "GNU GPL v2",
+        value:
+          "[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)",
+        short: "GNU 2.0",
+      },
+      {
+        name: "BSD 3-Clause License",
+        value: "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
+        short: "BSD 3-C",
+      }
     ],
   },
 ];
