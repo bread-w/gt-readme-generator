@@ -43,6 +43,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## URL
 
 [Link to GitHub repository](https://github.com/bread-w/gt-readme-generator)
+
 [Link to video walkthrough](https://drive.google.com/file/d/14ThyPiV6zq87zd-FNqeA05-HXD12TK0Y/view)
 
 ## Questions
