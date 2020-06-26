@@ -44,57 +44,57 @@ const questions = [
     // choices chosen from top 5 of this list: https://www.synopsys.com/blogs/software-security/top-open-source-licenses/
     choices: [
       {
-        name: "The MIT License",
-        value:
-          "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+        name: "MIT",
+        // value:
+        //   "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
         short: "MIT",
       },
       {
-        name: "Apache 2.0 License",
-        value:
-          "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+        name: "Apache 2.0",
+        // value:
+        //   "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
         short: "Apache",
       },
       {
         name: "GNU GPL v3",
-        value:
-          "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+        // value:
+        //   "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
         short: "GNU 3.0",
       },
       {
         name: "GNU GPL v2",
-        value:
-          "[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)",
+        // value:
+          // "[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)",
         short: "GNU 2.0",
       },
       {
-        name: "BSD 3-Clause License",
-        value: "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
+        name: "BSD 3-Clause",
+        // value: "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
         short: "BSD 3-C",
       },
       {
-        name: "Mozilla Public License 2.0",
-        value: "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+        name: "Mozilla Public 2.0",
+        // value: "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
         short: "Mozilla",
       },
       {
-        name: "ISC License",
-        value: "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
+        name: "ISC",
+        // value: "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
         short: "ISC",
       },
       {
-        name: "The Perl License",
-        value: "[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)",
+        name: "The Perl",
+        // value: "[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)",
         short: "Perl",
       },
       {
-        name: "Eclipse Public License 1.0",
-        value: "[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)",
+        name: "Eclipse Public 1.0",
+        // value: "[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)",
         short: "Eclipse",
       },
       {
-        name: "IBM Public License Version 1.0",
-        value: "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)",
+        name: "IBM Public Version 1.0",
+        // value: "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)",
         short: "IBM",
       },
     ],

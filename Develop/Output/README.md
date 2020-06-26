@@ -1,4 +1,6 @@
-# sdads
+# asdasd
+
+<img src="https://img.shields.io/badge/license-MIT-red"/>
 
 ## Table of Contents
 * [Description](#description)
@@ -10,25 +12,23 @@
 * [Questions](#questions)
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-This project is being licensed under the undefined.
+This project is being licensed under the MIT license.
 
 ## Description
-asdasd
+asdasdadsd
 
 ## Installation
-sdasdasd
+asdasdasdasd
 
 ## Usage
 asdasdasd
 
 ## Contributing
-asdasdas
+asdasdasdasd
 
 ## Tests
-dasdasdasd
+asdasdasd
 
 ## Questions
-If you have any questions, follow my GitHub profile here: https://github.com/sda
-You can also email me at asdasd.
+If you have any questions, follow my GitHub profile here: https://github.com/aasdasd.
+You can also email me at asdasdasd@asdasd.com.
