@@ -1,4 +1,4 @@
-# asdasd
+# Test
 
 ## Table of Contents
 * [Description](#description)
@@ -7,21 +7,26 @@
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [License](#license)
+* [Questions](#questions)
 
 ## License
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-asdasd
+testing
 
 ## Installation
-asdasd
+asdasdasd
 
 ## Usage
-asdasd
+asdasdasd
 
 ## Contributing
-asdasd
+asdasdasd
 
 ## Tests
-asdasd
+asdasdasd
+
+## Questions
+If you have any questions, follow my GitHub profile here: https://github.com/bread-w
+You can also email me at jb.wms89@gmail.com.

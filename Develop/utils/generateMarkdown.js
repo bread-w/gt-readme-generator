@@ -9,6 +9,7 @@ function generateMarkdown(data) {
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [License](#license)
+* [Questions](#questions)
 
 ## License
 ${data.license}
@@ -27,6 +28,10 @@ ${data.contributing}
 
 ## Tests
 ${data.tests}
+
+## Questions
+If you have any questions, follow my GitHub profile here: https://github.com/${data.github}
+You can also email me at ${data.email}.
 `;
 }
 

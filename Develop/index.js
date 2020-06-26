@@ -71,8 +71,43 @@ const questions = [
         name: "BSD 3-Clause License",
         value: "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
         short: "BSD 3-C",
-      }
+      },
+      {
+        name: "Mozilla Public License 2.0",
+        value: "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+        short: "Mozilla",
+      },
+      {
+        name: "ISC License",
+        value: "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
+        short: "ISC",
+      },
+      {
+        name: "The Perl License",
+        value: "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
+        short: "Perl",
+      },
+      {
+        name: "Eclipse Public License 1.0",
+        value: "[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)",
+        short: "Eclipse",
+      },
+      {
+        name: "IBM Public License Version 1.0",
+        value: "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)",
+        short: "IBM",
+      },
     ],
+  },
+  {
+    message: "What is your GitHub profile name?",
+    type: "input",
+    name: "github",
+  },
+  {
+    message: "What contact email would you like to display?",
+    type: "input",
+    name: "email",
   },
 ];
 
