@@ -40,11 +40,10 @@ ${data.contributing}
 ${data.tests}
 \u0060\u0060\u0060
 ## Questions
-\u0060\u0060\u0060
 If you have any questions, follow my GitHub profile here: https://github.com/${data.github}.
 
 You can also email me at ${data.email}.
-\u0060\u0060\u0060
+
 `;
 }
 
