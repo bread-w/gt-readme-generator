@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
-
+* [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
@@ -13,8 +13,12 @@
 * [URL](#url)
 * [Questions](#questions)
 
-## Installation
+## Description
 ```
+This command line application generates a README file based on a user's response to various prompts within the terminal. Upon answering each prompt and choosing a license, a README file will be generated for the user that is viewable in the Output folder.
+```
+## Installation
+```md
 Clone the GitHub repository and then open your terminal. Using the terminal, navigate to the appropriate file path for your index.js file. In the correct file location, run 'node -v' in your terminal to determine that your node version is either v12.1 or higher. Next run 'npm install' to install any required dependencies on your local machine. Once installed, run 'node index-js' and follow the prompts from the terminal. You can find your generated README in the output folder included in the repository.
 ```
 ## Usage
@@ -22,7 +26,7 @@ Clone the GitHub repository and then open your terminal. Using the terminal, nav
 ![generatedREADME](./Assets/generatedREADME.png)
 
 ## Credits
-```md
+```
 This was created by Brad Williams for the Georgia Tech Web Development Bootcamp.
 ```
 
